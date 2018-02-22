@@ -1,3 +1,3 @@
-# Work on progress
+# Work in progress
 
 creating a minimalist portifolio
