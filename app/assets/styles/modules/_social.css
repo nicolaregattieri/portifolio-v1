@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  &__nav{
+    font-size: 20px;
+    padding: 0 ;
+
+    & a {
+      margin: 20px;
+      color: $color1;
+    }
+
+  }
+  @mixin atMedium{
+      justify-content: flex-end;
+      margin: 0;
+
+  }
+
+}

@@ -1,0 +1,13 @@
+/* single action tools */
+@import "normalize.css";
+/* global rule of the page body and html */
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+/* block modules */
+@import "modules/_flex-container";
+@import "modules/_social";
+@import "modules/_section-about";
+@import "modules/_divisor";
+@import "modules/_section-galery";
+@import "modules/_galery-item";
