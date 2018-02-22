@@ -1,3 +1,3 @@
-# travel-site
+# Work on progress
 
-Link to github pages:  https://nicolaregattieri.github.io/travel-site/ 
+creating a minimalist portifolio
