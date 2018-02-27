@@ -4,7 +4,7 @@
   margin-top: 35px;
   justify-content: space-between;
 
-  @mixin atMedium {
+  @include atMedium {
     flex-direction: row;
     flex-wrap: wrap;
   }
