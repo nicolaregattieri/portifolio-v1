@@ -5,8 +5,8 @@ import smoothScroll from 'jquery-smooth-scroll';
 class StickyHeader {
   constructor() {
     this.lazyImages = $('.lazyload')
-    this.siteHeader = $(".site-header");
-    this.headerTriggerElement = $(".large-hero__title");
+    this.siteHeader = $(".social");
+    this.headerTriggerElement = $(".someclass");
     this.createHeaderWaypoint();
     this.pageSections = $(".page-section");
     this.createPageSectionsWaypoints();
@@ -33,10 +33,10 @@ class StickyHeader {
         // that.siteHeader.toggleClass("site-header--dark");
         that.headerLinks.removeClass("is-current-link");
         if (direction == "down"){
-          that.siteHeader.addClass("site-header--dark");
+          that.siteHeader.addClass("social--dark");
         }
         else{
-          that.siteHeader.removeClass("site-header--dark");
+          that.siteHeader.removeClass("social--dark");
         }
       }
     });

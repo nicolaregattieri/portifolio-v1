@@ -10,8 +10,10 @@
       margin: 10px;
       color: $color5;
       padding: 10px;
+      
       &:hover{
         color: $color3;
+        z-index: 2;
       }
     }
 
@@ -24,5 +26,22 @@
       }
 
   }
-
+  
+  &--dark {
+    background: $color2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    height: 6em;
+    transition: all 1s ease-in-out;
+    &::before{
+      height: 0em;
+      
+    }
+  }
 }

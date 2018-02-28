@@ -11379,8 +11379,8 @@ var StickyHeader = function () {
     _classCallCheck(this, StickyHeader);
 
     this.lazyImages = (0, _jquery2.default)('.lazyload');
-    this.siteHeader = (0, _jquery2.default)(".site-header");
-    this.headerTriggerElement = (0, _jquery2.default)(".large-hero__title");
+    this.siteHeader = (0, _jquery2.default)(".social");
+    this.headerTriggerElement = (0, _jquery2.default)(".someclass");
     this.createHeaderWaypoint();
     this.pageSections = (0, _jquery2.default)(".page-section");
     this.createPageSectionsWaypoints();
@@ -11411,9 +11411,9 @@ var StickyHeader = function () {
           // that.siteHeader.toggleClass("site-header--dark");
           that.headerLinks.removeClass("is-current-link");
           if (direction == "down") {
-            that.siteHeader.addClass("site-header--dark");
+            that.siteHeader.addClass("social--dark");
           } else {
-            that.siteHeader.removeClass("site-header--dark");
+            that.siteHeader.removeClass("social--dark");
           }
         }
       });
